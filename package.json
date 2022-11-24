@@ -2,14 +2,14 @@
   "name": "@tenbyten/mockjs",
   "title": "Mock.js",
   "description": "生成随机数据 & 拦截 Ajax 请求",
-  "version": "1.0.1-beta3",
+  "version": "1.1.0",
   "homepage": "http://mockjs.com/",
   "keywords": [
     "mock",
     "mockJSON",
     "mockAjax"
   ],
-  "author": "nuysoft@gmail.com",
+  "author": "genfa.zeng.life@gmail.com",
   "dependencies": {
     "commander": "*"
   },
@@ -30,6 +30,7 @@
     "url": "git://github.com/nuysoft/Mock.git"
   },
   "main": "./dist/mock.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "test": "gulp mocha",
     "coveralls": "gulp coveralls"
@@ -48,5 +49,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "volta": {
+    "node": "11.15.0"
   }
 }
