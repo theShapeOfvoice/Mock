@@ -45,5 +45,8 @@
   ],
   "spm": {
     "main": "dist/mock.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
