@@ -5,13 +5,13 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.2
 
-declare namespace mockjs {
+declare module '@tenbyten/mockjs' {
     type N = number;
     type S = string;
     type B = boolean;
 
     // Interface for global namespace 'Mockjs'
-    interface Mockjs {
+    export default interface Mockjs {
         mock: MockjsMock;
         setup: MockjsSetup;
         Random: MockjsRandom;
@@ -315,4 +315,4 @@ declare namespace mockjs {
     let version: number;
 }
 
-export = mockjs;
+
