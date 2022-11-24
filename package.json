@@ -32,6 +32,7 @@
   "main": "./dist/mock.js",
   "types": "./types/index.d.ts",
   "scripts": {
+    "build": "npx gulp",
     "test": "gulp mocha",
     "coveralls": "gulp coveralls"
   },
