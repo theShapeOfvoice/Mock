@@ -75,6 +75,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    Random: Random,
 	    Util: Util,
 	    XHR: XHR,
+	    NativeXMLHttpRequest: window.XMLHttpRequest,
 	    RE: RE,
 	    toJSONSchema: toJSONSchema,
 	    valid: valid,
