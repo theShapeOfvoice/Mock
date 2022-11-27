@@ -329,6 +329,7 @@ declare module "@tenbyten/mockjs" {
         let valid: MockjsValid;
         let toJSONSchema: MockjsToJSONSchema;
         let version: number;
+        let NativeXMLHttpRequest: XMLHttpRequest;
     }
     export default Mockjs;
 }
