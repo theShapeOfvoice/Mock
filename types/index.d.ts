@@ -19,7 +19,7 @@ declare module "@tenbyten/mockjs" {
             valid: MockjsValid;
             toJSONSchema: MockjsToJSONSchema;
             version: number;
-            NativeXMLHttpRequest: XMLHttpRequest;
+            NativeXMLHttpRequest: typeof window.XMLHttpRequest;
         }
 
         interface MockjsRequestOptions {
@@ -329,7 +329,7 @@ declare module "@tenbyten/mockjs" {
         let valid: MockjsValid;
         let toJSONSchema: MockjsToJSONSchema;
         let version: number;
-        let NativeXMLHttpRequest: XMLHttpRequest;
+        let NativeXMLHttpRequest: typeof window.XMLHttpRequest;
     }
     export default Mockjs;
 }
